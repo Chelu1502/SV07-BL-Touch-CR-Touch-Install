@@ -58,6 +58,7 @@ speed: 200
 horizontal_move_z: 5
 
     Now I have 
+How did you come to these values?
 
 [z_tilt]
 z_positions: -12, 171
@@ -68,7 +69,8 @@ speed: 200
 horizontal_move_z: 7
 
 For the bed mesh, you will also have changes. Subtract your probe values from the beds actual max moveable area. As an example, my x offset of the probe is 37 and my bed min and max on the x axis is -12 and 302. So the starting point for the bed mesh is going to be 25 min and max at 265
-        
+These values are also linked to the values from z_tilt?
+
     Originally I had
 
 [bed_mesh]
